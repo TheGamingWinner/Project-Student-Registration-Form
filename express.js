@@ -16,7 +16,7 @@ app.post("/submit", (req, res) => {
       return;
     }
 
-    const db = client.db("your_database_name"); // Change as needed
+    const db = client.db("company.akkhilsharmaclass"); // Change as needed
     const collection = db.collection("students");
 
     collection.insertOne(formData, (err, result) => {
