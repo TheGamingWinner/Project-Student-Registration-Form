@@ -2,7 +2,7 @@ const express = require("express");
 const MongoClient = require("mongodb").MongoClient;
 const app = express();
 const port = 3000; // Change as needed
-const mongoUrl = "mongodb+srv://akkhilsharmaclass:<password>@project.67z58uk.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl = "mongodb+srv://akkhilsharmaclass:AKKHIL_SHARMA@india@project.67z58uk.mongodb.net/?retryWrites=true&w=majority";
 
 app.use(express.json());
 
